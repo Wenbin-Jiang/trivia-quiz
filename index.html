@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Login Container -->
+    <div id="login-container">
+      <!-- Username Input -->
+      <input type="text" id="username" placeholder="Username" />
+      <!-- Password Input -->
+      <input type="password" id="password" placeholder="Password" />
+      <!-- Login Button -->
+      <button id="login-btn">Login</button>
+      <!-- Error Message -->
+      <p id="error-message"></p>
+    </div>
+
+    <!-- Quiz Container -->
+    <div id="quiz-container" style="display: none">
+      <!-- Hidden initially -->
+
+      <!-- App Container -->
+      <div class="app">
+        <!-- Progress Bar -->
+        <div id="progress-bar">
+          <div id="progress-bar-inner"></div>
+        </div>
+        <!-- Quiz Title -->
+        <h1>Marvel Trivia Quiz</h1>
+
+        <!-- Quiz Section -->
+        <div class="quiz">
+          <!-- Question -->
+          <h2 id="question">questions goes here</h2>
+          <!-- Answer Buttons -->
+          <div id="answer-btn">
+            <button class="btn">Answer 1</button>
+            <button class="btn">Answer 2</button>
+            <button class="btn">Answer 3</button>
+            <button class="btn">Answer 4</button>
+          </div>
+          <!-- Next Button -->
+          <button id="next-btn">Next</button>
+        </div>
+      </div>
+
+      <!-- JavaScript File -->
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>

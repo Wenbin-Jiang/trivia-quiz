@@ -1,0 +1,154 @@
+body {
+  background-image: url(./pics/marvel.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+/* Login Container */
+#login-container {
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 100%;
+  max-width: 25vw;
+  max-height: 60vh;
+  margin: 150px auto 0;
+  border-radius: 50px;
+  padding: 50px;
+}
+
+/* Login Input Fields */
+#login-container input[type="text"],
+#login-container input[type="password"] {
+  font-size: 50px;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Login Button */
+#login-container button {
+  font-size: 50px;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+/* Hover Styles for Login Button */
+#login-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Error Message */
+#error-message {
+  font-size: 50px;
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* App Container */
+.app {
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 100%;
+  max-width: 50vw;
+  max-height: 60vh;
+  margin: 150px auto 0;
+  border-radius: 50px;
+  padding: 50px;
+}
+
+/* Quiz Title */
+.app h1 {
+  font-size: 100px;
+  color: black;
+  font-weight: 600;
+  border-bottom: 10px solid #333;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+/* Question Title */
+.quiz h2 {
+  font-size: 70px;
+  color: black;
+  font-weight: 600;
+}
+
+/* Progress Bar */
+#progress-bar {
+  width: 100%;
+  background-color: blue;
+  height: 50px;
+  border-radius: 10px;
+}
+
+/* Inner Progress Bar */
+#progress-bar-inner {
+  width: 0%;
+  height: 100%;
+  background-color: #4caf50;
+  border-radius: 20px;
+  transition: width 0.3s ease-in-out;
+}
+
+/* Answer Buttons */
+.btn {
+  background: aliceblue;
+  color: #222;
+  font-size: 40px;
+  font-weight: 600;
+  width: 48%;
+  display: inline-block;
+  border: 5px solid #222;
+  padding: 10px;
+  margin: 10px 1%;
+  text-align: left;
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+
+/* Hover Styles for Answer Buttons */
+.btn:hover:not([disabled]) {
+  background: #222;
+  color: #fff;
+}
+
+/* Disabled Styles for Answer Buttons */
+.btn:disabled {
+  cursor: no-drop;
+}
+
+/* Next Button */
+#next-btn {
+  background: rgb(25, 121, 239);
+  color: #fff;
+  font-size: 55px;
+  font-weight: 600;
+  width: 200px;
+  border: none;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+/* Correct Answers */
+.correct {
+  background: #3be307;
+}
+
+/* Incorrect Answers */
+.incorrect {
+  background: red;
+}
