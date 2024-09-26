@@ -1,5 +1,8 @@
-# assignment3
 javascript marvel trivia quiz 
+https://wenbin-jiang.github.io/trivia-quiz/
+username: admin
+password: 0000
+
 
 This Marvel Trivia Quiz is implemented using HTML, CSS, and JavaScript. Here's a breakdown of the implementation:
 
